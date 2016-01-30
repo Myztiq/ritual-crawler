@@ -27,3 +27,36 @@ h1 {
   padding-left: 60px;
   top: 720px;
 }
+
+.left {
+  height: 64px;
+  width: 64px;
+  position: absolute;
+  top: 18px;
+  left: 16px;
+}
+
+.right {
+  height: 64px;
+  width: 64px;
+  position: absolute;
+  top: 18px;
+  left: 142px;
+}
+
+.up {
+  height: 64px;
+  width: 64px;
+  position: absolute;
+  top: -47px;
+  left: 78px;
+
+}
+
+.down {
+  height: 64px;
+  width: 64px;
+  position: absolute;
+  top: 82px;
+  left: 78px;
+}
