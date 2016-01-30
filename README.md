@@ -7,3 +7,12 @@ To get started
 - run: python server.py
 - game is running at http://localhost:8080/
 - editor is running at http://localhost:8080/editor
+
+## [Electron](http://electron.atom.io/)!
+```
+git clone https://github.com/Myztiq/ritual-crawler.git
+cd ritual-crawler
+npm install
+npm start
+```
+
