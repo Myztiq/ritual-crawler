@@ -1,0 +1,16 @@
+h1 {
+  color: tan;
+}
+
+.playerA {
+  float: left;
+}
+
+.playerB {
+  float: right;
+}
+.container{
+  margin: 1%;
+  width: 220px;
+  text-align: center;
+}

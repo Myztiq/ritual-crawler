@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Impact Game</title>
+
 	<style type="text/css">
 		html,body {
 			background-color: #333;
@@ -22,11 +23,26 @@
 		}
 	</style>
 
+
 	<script type="text/javascript" src="lib/plugins/underscore.js"></script>
 	<script type="text/javascript" src="lib/impact/impact.js"></script>
 	<script type="text/javascript" src="lib/game/main.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<canvas id="canvas"></canvas>
+<div class="playerA container">
+  <h1>Player A</h1>
+  <div class="ui list spellbook"></div>
+</div>
+
+  <canvas id="canvas"></canvas>
+
+<div class="playerB container">
+  <h1>Player B</h1>
+  <div class="ui list spellbook"></div>
+</div>
+
 </body>
 </html>
