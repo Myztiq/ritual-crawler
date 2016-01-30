@@ -14,3 +14,9 @@ h1 {
   width: 220px;
   text-align: center;
 }
+
+.spell-info {
+  font-weight: bold;
+  vertical-align: 2px;
+  margin-left: 3px;
+}
