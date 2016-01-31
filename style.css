@@ -1,5 +1,6 @@
 h1 {
   color: tan;
+  font-family: 'Shadows Into Light Two', cursive;
 }
 
 .playerA {
@@ -7,6 +8,7 @@ h1 {
 }
 
 .playerB {
+  font-family: 'Shadows Into Light Two', cursive;
   float: right;
 }
 .container{
@@ -29,6 +31,9 @@ h1 {
   font-weight: bold;
   vertical-align: 2px;
   margin-left: 3px;
+}
+.spell-text.p {
+  font-family: 'Roboto', sans-serif;
 }
 
 .spell-icon {
