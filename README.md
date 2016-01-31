@@ -6,8 +6,8 @@
 > Anand Patel - Programming [anandkumarpatel](https://github.com/anandkumarpatel)<br/>
 > Dominic Mortlock - Level Design [@locknic](https://twitter.com/locknic)<br/>
 > Scott Looney - Audio [scottrlooney at gmail](mailto:scottrlooney@gmail.com)<br/>
-> Adam Rickert - Environment Art [@adamrickert](https://twitter.com/adamrickert<br/>)
-> Ian Sterling - Character Art [isterling][https://github.com/isterling]<br/>
+> Adam Rickert - Environment Art [@adamrickert](https://twitter.com/adamrickert)<br/>
+> Ian Sterling - Character Art [isterling](https://github.com/isterling)<br/>
 
 ## Cut a build
 > *Note:* You'll need your own copy of ImpactJS installed into `lib/impact`.
