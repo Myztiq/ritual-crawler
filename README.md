@@ -1,13 +1,13 @@
 # Ritual Crawler
-> Ritualistic dungeon crawler by:
-> Max Gordon - Programming [postazure](https://github.com/postazure)
-> Matt Hayes - Programming [mysterycommand](https://github.com/mysterycommand)
-> Ryan Kahn - Programming [Myztiq](https://github.com/Myztiq)
-> Anand Patel - Programming [anandkumarpatel](https://github.com/anandkumarpatel)
-> Dominic Mortlock - Level Design [@locknic](https://twitter.com/locknic)
-> Scott Looney - Audio [scottrlooney at gmail](mailto:scottrlooney@gmail.com)
-> Adam Rickert - Environment Art [@adamrickert](https://twitter.com/adamrickert)
-> Ian Sterling - Character Art [isterling][https://github.com/isterling]
+> Ritualistic dungeon crawler by:<br/>
+> Max Gordon - Programming [postazure](https://github.com/postazure)<br/>
+> Matt Hayes - Programming [mysterycommand](https://github.com/mysterycommand)<br/>
+> Ryan Kahn - Programming [Myztiq](https://github.com/Myztiq)<br/>
+> Anand Patel - Programming [anandkumarpatel](https://github.com/<br/>anandkumarpatel)
+> Dominic Mortlock - Level Design [@locknic](https://twitter.com/locknic)<br/>
+> Scott Looney - Audio [scottrlooney at gmail](mailto:scottrlooney@gmail.com)<br/>
+> Adam Rickert - Environment Art [@adamrickert](https://twitter.com/adamrickert<br/>)
+> Ian Sterling - Character Art [isterling][https://github.com/isterling]<br/>
 
 ## Cut a build
 > *Note:* You'll need your own copy of ImpactJS installed into `lib/impact`.
