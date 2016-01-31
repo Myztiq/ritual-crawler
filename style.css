@@ -23,6 +23,26 @@ h1 {
   margin-left: 3px;
 }
 
+.spell-icon {
+  height: 50px;
+  width: 50px;
+  float: left;
+}
+
+.spell-level {
+  position: absolute;
+  font-size: 20px;
+  top: 27px;
+  left: 3px;
+  color: black;
+  border: black 3px solid;
+  border-radius: 25px;
+  padding: 0 7px;
+  font-weight: bolder;
+
+  background: radial-gradient(circle, red, black); /* Standard syntax */
+}
+
 
 /*inventory*/
 .inventory {
