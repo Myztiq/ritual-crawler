@@ -4,10 +4,14 @@
   "description": "Ritualistic Dungeon Crawler",
   "main": "main.js",
   "scripts": {
-    "build": "npm run clean && npm run dist",
-    "clean": "rm -rf dist/",
-    "dist": "./node_modules/.bin/electron-packager ./ 'Ritual Crawler' --version=0.36.5 --all --app-category-type=public.app-category.games --app-version=1.0.0 --out=dist --prune --asar",
-    "start": "./node_modules/.bin/electron main.js",
+    "build": "npm run min && npm run clean && npm run temp && npm run dist",
+    "temp": "npm run temp-mkdir && npm run temp-cp",
+    "temp-mkdir": "mkdir -p temp/lib/plugins",
+    "temp-cp": "cp lib/plugins/underscore.js temp/lib/plugins/underscore.js && cp -rf media/ temp/media/ && cp game.min.js temp && cp index.html temp && cp main.js temp && cp package.json temp && cp style.css temp",
+    "clean": "rm -rf temp/ && rm -rf dist/",
+    "dist": "./node_modules/.bin/electron-packager ./temp 'Ritual Crawler' --version=0.36.5 --all --app-category-type=public.app-category.games --app-version=1.0.0 --out=dist --prune --asar",
+    "min": "php tools/bake.php lib/impact/impact.js lib/game/main.js game.min.js",
+    "start": "npm run min && ./node_modules/.bin/electron main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
