@@ -2,8 +2,11 @@
   "name": "ritual-crawler",
   "version": "1.0.0",
   "description": "Ritualistic Dungeon Crawler",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
+    "build": "npm run clean && npm run dist",
+    "clean": "rm -rf dist/",
+    "dist": "./node_modules/.bin/electron-packager ./ 'Ritual Crawler' --version=0.36.5 --all --app-category-type=public.app-category.games --app-version=1.0.0 --out=dist --prune",
     "start": "./node_modules/.bin/electron main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +22,7 @@
   },
   "homepage": "https://github.com/Myztiq/ritual-crawler#readme",
   "devDependencies": {
+    "electron-packager": "^5.2.1",
     "electron-prebuilt": "^0.36.0"
   }
 }
