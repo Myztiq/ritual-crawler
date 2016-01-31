@@ -3,7 +3,7 @@
 > Max Gordon - Programming [postazure](https://github.com/postazure)<br/>
 > Matt Hayes - Programming [mysterycommand](https://github.com/mysterycommand)<br/>
 > Ryan Kahn - Programming [Myztiq](https://github.com/Myztiq)<br/>
-> Anand Patel - Programming [anandkumarpatel](https://github.com/<br/>anandkumarpatel)
+> Anand Patel - Programming [anandkumarpatel](https://github.com/anandkumarpatel)<br/>
 > Dominic Mortlock - Level Design [@locknic](https://twitter.com/locknic)<br/>
 > Scott Looney - Audio [scottrlooney at gmail](mailto:scottrlooney@gmail.com)<br/>
 > Adam Rickert - Environment Art [@adamrickert](https://twitter.com/adamrickert<br/>)
